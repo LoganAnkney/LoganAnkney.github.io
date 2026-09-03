@@ -1,11 +1,84 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <title>My Web Page</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Logan Ankney creates games, worlds, art, and music." />
+  <title>Logan Ankney | Game Creator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
-
 <body>
+  <div class="page-glow" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="logo" href="#home">LA<span>/</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About Me</a>
+      <a href="#skills">Skills</a>
+      <a class="nav-button" href="mailto:logan@example.com">Contact <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <p class="eyebrow"><span class="pulse"></span> Game creator / digital storyteller</p>
+      <h1>Building worlds<br /><span>worth exploring.</span></h1>
+      <p class="hero-copy">Hi, I'm Logan Ankney. I make interactive experiences with code, art, and sound.</p>
+      <a class="hero-link" href="#about">Discover my work <span aria-hidden="true">↓</span></a>
+      <div class="hero-stamp" aria-hidden="true">PLAY<br /><span>CREATE</span><br />REPEAT</div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="section-tag">01 / About</div>
+      <div class="about-content">
+        <h2>From first sketch<br />to final <em>frame.</em></h2>
+        <p>I love video games. Ever since I was a kid, I wanted to understand how they worked and enjoyed the art and music that exemplify the game itself. I've created games of my own through college courses and want to make something that can inspire other kids like games inspired me.</p>
+      </div>
+    </section>
+
+    <section class="showcase">
+      <div class="section-tag">02 / Games that inspired me</div>
+      <div class="showcase-grid">
+        <article class="showcase-card card-one">
+          <div>
+            <span class="card-number">01</span>
+            <h3>The Legend of Zelda</h3>
+            <p>Breath of the Wild</p>
+          </div>
+        </article>
+        <article class="showcase-card card-two">
+          <div>
+            <span class="card-number">02</span>
+            <h3>Mario</h3>
+            <p>Super Mario Bros.</p>
+          </div>
+        </article>
+        <article class="showcase-card card-three">
+          <div>
+            <span class="card-number">03</span>
+            <h3>Pokemon</h3>
+            <p></p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="section-tag">03 / Skills</div>
+      <div class="skills-content">
+        <h2>Tools for<br /><em>making play.</em></h2>
+        <div class="skill-list">
+          <div class="skill"><span>01</span><h3>Coding in Unreal Engine and Unity</h3><b>↗</b></div>
+          <div class="skill"><span>02</span><h3>Game Art</h3><b>↗</b></div>
+          <div class="skill"><span>03</span><h3>Game Music</h3><b>↗</b></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>© 2026 Logan Ankney</span><span>Keep making things</span><a href="#home">Back to top ↑</a></footer>
 </body>
-</html>
+</script src="script.js"></script>
+</html> 
